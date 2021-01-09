@@ -83,8 +83,7 @@ It is recommended to use two independent visual properties for visual signaling 
 
 `extent` values should have a _natural ordering_, e.g. opacity values, elevation, magnification, etc. Interactivity states should be displayed as follows:
 
-- **Not interactive**: `baseline: off, extent: none`
-- **Disabled interaction**: `baseline: off, extent: low`
-- **Not currently interactive**: `baseline: on, extent: low`
-- **Interactive**: `baseline: on, extent: medium`
-- **Hinting interactivity**: `baseline: on, extent: high`
+`baseline`/`extent` | `none`              | `low`                         | `medium`        | `high`
+------------------- | :-----------------: | :---------------------------: | --------------- | ------
+`off`               | **Non interactive** | **Disabled interaction**      | ❌              | ❌
+`on`                | ❌                  | **Not currently interactive** | **Interactive** | **Hinting interactivity**
