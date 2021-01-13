@@ -1,6 +1,6 @@
 {
   "name": "tactile-ux",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tactile Callbag-JSX component library",
   "main": "dist/es5/index.js",
   "module": "dist/es6/index.js",
@@ -46,6 +46,7 @@
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
     "@rollup/plugin-babel": "^5.2.2",
+    "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.1",
     "@types/chai": "^4.2.14",
     "@types/jsdom-global": "^3.0.2",
