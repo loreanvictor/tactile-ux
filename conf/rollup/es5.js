@@ -15,6 +15,6 @@ export default Object.assign(base, {
     nodeResolve(),
   ],
   output: Object.assign(base.output, {
-    file: 'dist/bundles/callbag-jsx.es5.min.js',
+    file: 'dist/bundles/tactile-ux.es5.min.js',
   }),
 });

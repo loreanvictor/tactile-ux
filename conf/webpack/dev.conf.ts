@@ -19,7 +19,7 @@ export default merge(config, <webpack.Configuration>{
     port: 3000,
   },
   plugins: [
-    new HTMLWebpackPlugin({ title: 'CALLBAG JSX DEV' })
+    new HTMLWebpackPlugin({ title: 'TACTILE UX DEV' })
   ],
   output: {
     filename: 'test.bundle.js',
