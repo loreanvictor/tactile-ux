@@ -1,6 +1,6 @@
 {
   "name": "tactile-ux",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A tactile Callbag-JSX component library",
   "main": "dist/es5/index.js",
   "module": "dist/es6/index.js",
@@ -36,11 +36,13 @@
   },
   "homepage": "https://github.com/loreanvictor/tactile-ux#readme",
   "dependencies": {
-    "callbag-common": "^0.1.3",
+    "callbag-common": "^0.1.5",
+    "callbag-form": "^0.3.0",
     "callbag-jsx": "^0.1.12",
     "callbag-state": "^0.2.5",
+    "color": "^3.1.3",
     "render-jsx": "^0.2.4",
-    "themed-jss": "^0.2.6"
+    "themed-jss": "^0.3.5"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
@@ -49,7 +51,7 @@
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.1",
     "@types/chai": "^4.2.14",
-    "@types/jsdom-global": "^3.0.2",
+    "@types/color": "^3.0.1",
     "@types/mocha": "^8.2.0",
     "@typescript-eslint/eslint-plugin": "^4.13.0",
     "@typescript-eslint/parser": "^4.13.0",
@@ -57,13 +59,12 @@
     "clean-webpack-plugin": "^3.0.0",
     "eslint": "^7.17.0",
     "html-webpack-plugin": "^4.5.1",
-    "jsdom-global": "^3.0.2",
     "mocha": "^8.2.1",
     "nyc": "^15.1.0",
     "nyc-config-tsx": "^0.1.0",
     "rollup": "^2.36.1",
     "rollup-plugin-terser": "^7.0.2",
-    "test-callbag-jsx": "^0.1.3",
+    "test-callbag-jsx": "^0.2.1",
     "ts-loader": "^8.0.14",
     "ts-node": "^9.1.1",
     "tslib": "^2.1.0",
