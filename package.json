@@ -1,6 +1,6 @@
 {
   "name": "tactile-ux",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A tactile Callbag-JSX component library",
   "main": "dist/es5/index.js",
   "module": "dist/es6/index.js",
